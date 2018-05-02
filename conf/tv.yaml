@@ -1,0 +1,11 @@
+  - platform: samsungtv
+    host: 192.168.2.10
+    mac: 7c:64:56:62:78:d4
+    port: 8001
+    name: Lounge TV
+  - platform: samsungtv
+    host: 192.168.2.56
+    mac: 7c:64:56:45:06:57
+    port: 8001
+    name: Master Bedroom TV
+    timeout: 10

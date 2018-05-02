@@ -1,0 +1,58 @@
+light.living_room:
+  hidden: true
+light.conservatory:
+  hidden: true
+light.kitchen:
+  hidden: true
+light.hue_lamp_lounge_1:
+  icon: mdi:floor-lamp
+light.hue_lamp_lounge_2:
+  icon: mdi:lamp
+light.hue_lamp_conservatory_1:
+  icon: mdi:floor-lamp
+light.hue_lamp_kitchen_1:
+  icon: mdi:ceiling-light
+binary_sensor.downstairs_thermostat_is_using_emergency_heat:
+  hidden: true
+binary_sensor.downstairs_thermostat_online:
+  hidden: true
+binary_sensor.downstairs_thermostat_is_locked:
+  hidden: true
+binary_sensor.downstairs_thermostat_has_leaf:
+  hidden: true
+binary_sensor.downstairs_thermostat_fan:
+  hidden: true
+media_player.lounge_ue55mu7000:
+  friendly_name: Lounge TV
+sensor.downstairs_thermostat_hvac_state:
+  hidden: true
+sensor.hallway_nest_protect_smoke_status:
+  friendly_name: Hallway Smoke Detector
+  icon: mdi:smoke-detector
+sensor.hallway_nest_protect_co_status:
+  friendly_name: Hallway CO2 Detector
+  icon: mdi:periodic-table-co2
+sensor.hallway_nest_protect_battery_health:
+  friendly_name: Hallway Detector Battery
+  icon: mdi:battery
+sensor.downstairs_thermostat_humidity:
+  icon: mdi:water-percent
+climate.downstairs:
+  icon: mdi:thermometer
+device_tracker.martin:
+  friendly_name: Martin
+  icon: mdi:account
+sensor.banana_phone_battery_level:
+  hidden: true
+sensor.banana_phone_battery_level_2:
+  hidden: true
+sensor.banana_phone_battery_state:
+  hidden: true
+sensor.banana_phone_battery_state_2:
+  hidden: true
+device_tracker.vik:
+  friendly_name: Vik
+sensor.viks_iphone_battery_level:
+  hidden: true
+sensor.viks_iphone_battery_state:
+  hidden: true
