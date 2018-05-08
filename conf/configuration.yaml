@@ -16,6 +16,7 @@ homeassistant:
 # Enables the frontend
 frontend:
 
+
 # Enables configuration UI
 config:
 
@@ -59,6 +60,18 @@ map:
 # Track the sun
 sun:
 
+####################################################
+#                                                  #
+#                     DUCKDNS                      #
+#                                                  #
+####################################################
+
+#https://home-assistant.io/components/duckdns/
+duckdns:
+  domain: !secret duckdns_domain
+  access_token: !secret duckdns_token
+
+
 sensor: !include sensors.yaml
   
 # Text to speech
@@ -78,16 +91,3 @@ ios:
 homekit:
 
 media_player: !include tv.yaml
-
-
-
-# cloud:
-#   alexa:
-#     filter:
-#       include_entities:
-#         - media_player.lounge_tv
-#     entity_config:
-#       media_player.lounge_tv:
-#         name: Lounge TV
-#         description: Samsung TV Lounge
-#         display_categories: TV

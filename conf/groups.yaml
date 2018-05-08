@@ -1,19 +1,67 @@
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.home_status
+    - group.house_lights
+    - group.lounge
+    - group.kitchen
+    - group.master_bedroom
+    - sensor.date
+    - sensor.time
+    - sensor.weather_symbol
+    - sun.sun
+    - device_tracker.vik
+    - device_tracker.martin
+
+
 lounge:
   name: Lounge
+  view: yes
+  entities:
+    - light.hue_lamp_lounge_1
+    - light.hue_lamp_lounge_2
+    - media_player.lounge_tv
+    - media_player.lounge_sonos
+
+lounge_lights:
+  name: Lounge Lights
+  view: no
   entities:
     - light.hue_lamp_lounge_1
     - light.hue_lamp_lounge_2
 
-living_room_lights:
+kitchen_lights:
+  name: Kitchen Lights
+  view: no
+  entities:
+    - light.hue_lamp_kitchen_1
+
+
+kitchen:
+  name: Kitchen
+  view: yes
+  entities:
+    - light.hue_lamp_kitchen_1
+    - media_player.kitchen_sonos
+
+master_bedroom:
+  name: Master Bedroom
+  view: yes
+  entities:
+    - media_player.master_bedroom_tv
+    - media_player.master_bedroom_sonos
+
+house_lights:
   name: Lights
   entities:
     - light.hue_lamp_kitchen_1
     - light.hue_lamp_lounge_1
     - light.hue_lamp_lounge_2
     - light.hue_lamp_conservatory_1
-    - group.lounge
 
-climate_sensors:
+
+home_status:
   name: Home Status
   entities:
     - climate.downstairs

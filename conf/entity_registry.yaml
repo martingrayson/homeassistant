@@ -18,39 +18,47 @@ climate.downstairs:
   name: Downstairs Thermostat
   platform: nest
   unique_id: iMcy0UPQ2yqf_jCzTrspDW4mbFdmOZ0A
-media_player.kitchen:
+media_player.kitchen_sonos:
   name:
   platform: sonos
   unique_id: RINCON_000E587DCAF201400
-media_player.master_bedroom:
+media_player.master_bedroom_sonos:
   name:
   platform: sonos
   unique_id: RINCON_000E58C3312A01400
-media_player.lounge:
+media_player.lounge_sonos:
   name:
   platform: sonos
   unique_id: RINCON_949F3E66592B01400
-sensor.banana_phone_battery_state:
+media_player:lounge_tv:
   name:
-  platform: ios
-  unique_id: state_banana_phone
-sensor.banana_phone_battery_state_2:
+  platform: samsungtv
+  unique_id: 7c:64:56:62:78:d4
+media_player:master_bedroom_tv:
   name:
-  platform: ios
-  unique_id: state_Martin
-sensor.banana_phone_battery_level:
-  name:
-  platform: ios
-  unique_id: level_banana_phone
-sensor.banana_phone_battery_level_2:
-  name:
-  platform: ios
-  unique_id: level_Martin
-sensor.viks_iphone_battery_level:
-  name:
-  platform: ios
-  unique_id: level_Vik
+  platform: samsungtv
+  unique_id: 7c:64:56:45:06:57
 sensor.viks_iphone_battery_state:
   name:
   platform: ios
   unique_id: state_Vik
+sensor.viks_iphone_battery_level:
+  name:
+  platform: ios
+  unique_id: level_Vik
+sensor.banana_phone_battery_level:
+  name:
+  platform: ios
+  unique_id: level_Martin
+sensor.banana_phone_battery_state:
+  name:
+  platform: ios
+  unique_id: state_Martin
+sensor.banana_phone_battery_state_2:
+  name:
+  platform: ios
+  unique_id: state_banana_phone
+sensor.banana_phone_battery_level_2:
+  name:
+  platform: ios
+  unique_id: level_banana_phone

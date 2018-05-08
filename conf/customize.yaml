@@ -22,8 +22,6 @@ binary_sensor.downstairs_thermostat_has_leaf:
   hidden: true
 binary_sensor.downstairs_thermostat_fan:
   hidden: true
-media_player.lounge_ue55mu7000:
-  friendly_name: Lounge TV
 sensor.downstairs_thermostat_hvac_state:
   hidden: true
 sensor.hallway_nest_protect_smoke_status:
@@ -56,3 +54,4 @@ sensor.viks_iphone_battery_level:
   hidden: true
 sensor.viks_iphone_battery_state:
   hidden: true
+

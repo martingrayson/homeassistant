@@ -1,0 +1,6 @@
+# Set nest to away mode based on presence sensor
+set_nest_away:
+  sequence:
+    - service: nest.set_mode
+      data:
+        home_mode: away
