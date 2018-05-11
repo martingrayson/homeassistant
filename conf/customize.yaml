@@ -54,4 +54,3 @@ sensor.viks_iphone_battery_level:
   hidden: true
 sensor.viks_iphone_battery_state:
   hidden: true
-

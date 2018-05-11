@@ -1,0 +1,30 @@
+# default_view:
+#   view: yes
+#   icon: mdi:home
+#   entities:
+#     - group.lounge
+#     - group.climate_sensors
+
+lounge:
+  name: Lounge
+  entities:
+    - light.hue_lamp_lounge_1
+    - light.hue_lamp_lounge_2
+
+living_room_lights:
+  name: Lights
+  entities:
+    - light.hue_lamp_kitchen_1
+    - light.hue_lamp_lounge_1
+    - light.hue_lamp_lounge_2
+    - light.hue_lamp_conservatory_1
+    - group.lounge
+
+climate_sensors:
+  name: Home Status
+  entities:
+    - climate.downstairs
+    - sensor.downstairs_thermostat_humidity
+    - sensor.hallway_nest_protect_battery_health
+    - sensor.hallway_nest_protect_co_status
+    - sensor.hallway_nest_protect_smoke_status

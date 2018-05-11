@@ -1,0 +1,13 @@
+filter:
+  exclude_entities:
+    - sensor.viks_iphone_battery_state
+    - sensor.viks_iphone_battery_level
+    - sensor.banana_phone_battery_level
+    - sensor.banana_phone_battery_state
+    - sensor.banana_phone_battery_state_2
+    - sensor.banana_phone_battery_level_2
+    - binary_sensor.downstairs_thermostat_has_leaf
+    - binary_sensor.downstairs_thermostat_is_locked
+    - binary_sensor.downstairs_thermostat_is_using_emergency_heat
+    - binary_sensor.downstairs_thermostat_fan
+    - script.set_nest_away
