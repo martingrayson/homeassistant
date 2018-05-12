@@ -14,7 +14,6 @@ default_view:
     - device_tracker.vik
     - device_tracker.martin
 
-
 lounge:
   name: Lounge
   view: yes
@@ -37,7 +36,6 @@ kitchen_lights:
   entities:
     - light.hue_lamp_kitchen_1
 
-
 kitchen:
   name: Kitchen
   view: yes
@@ -59,7 +57,6 @@ house_lights:
     - light.hue_lamp_lounge_1
     - light.hue_lamp_lounge_2
     - light.hue_lamp_conservatory_1
-
 
 home_status:
   name: Home Status

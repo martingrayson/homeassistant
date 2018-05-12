@@ -1,0 +1,23 @@
+- name: Bed Time
+  entities:
+    light.hue_lamp_kitchen_1: off
+    light.hue_lamp_lounge_1: off
+    light.hue_lamp_lounge_2: off
+    light.hue_lamp_conservatory_1: off
+    media_player.lounge_tv: off
+
+- name: Movie
+  entities:
+    light.hue_lamp_kitchen_1: off
+    light.hue_lamp_lounge_1: off
+    light.hue_lamp_lounge_2: off
+    light.hue_lamp_conservatory_1: off
+
+- name: Relax
+  entities:
+    light.hue_lamp_lounge_1: 
+      state: on
+      brightness: 40
+    light.hue_lamp_lounge_2:
+      state: on
+      brightness: 40
