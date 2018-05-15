@@ -1,29 +1,29 @@
 # Vacation mode for Living Room light
 
 # Light on 30 mins before sunset
-# - alias: 'Vacation Mode for Living Room ON'
-#   trigger:
-#     platform: sun
-#     event: sunset
-#     offset: "-00:30:00"
-#   condition:
-#     condition: state
-#     entity_id: input_boolean.vacation_mode
-#     state: 'on'
-#   action:
-#     service: switch.turn_on
-#     entity_id: group.lounge_lights
+- alias: 'Vacation Mode for Living Room ON'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "-00:30:00"
+  condition:
+    condition: state
+    entity_id: input_boolean.vacation_mode
+    state: 'on'
+  action:
+    service: switch.turn_on
+    entity_id: group.lounge_lights
 
-# # Light off 1hr 30 mins after sunset
-# - alias: Vacation Mode for Living Room OFF'
-#   trigger:
-#     platform: sun
-#     event: sunset
-#     offset: "+01:30:00"
-#   condition:
-#     condition: state
-#     entity_id: input_boolean.vacation_mode
-#     state: 'on'
-#   action:
-#     service: switch.turn_off
-#     entity_id: group.lounge_lights
+# Light off 1hr 30 mins after sunset
+- alias: Vacation Mode for Living Room OFF'
+  trigger:
+    platform: sun
+    event: sunset
+    offset: "+01:30:00"
+  condition:
+    condition: state
+    entity_id: input_boolean.vacation_mode
+    state: 'on'
+  action:
+    service: switch.turn_off
+    entity_id: group.lounge_lights
