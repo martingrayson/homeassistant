@@ -62,6 +62,12 @@ sun:
 tts:
   - platform: google
 
+# Vacation Mode
+input_boolean:
+  vacation_mode:
+    initial: off
+    icon: 'mdi:beach'
+
 #https://home-assistant.io/components/duckdns/
 duckdns:
   domain: !secret duckdns_domain
@@ -82,8 +88,3 @@ homekit: !include homekit.yaml
 media_player: !include tv.yaml
 scene: !include scenes.yaml
 
-# Vacation Mode
-input_boolean:
-  vacation_mode:
-    initial: off
-    icon: 'mdi:beach'
