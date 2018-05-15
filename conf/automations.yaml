@@ -4,9 +4,7 @@
 - alias: 'Vacation Mode for Lights ON'
   trigger:
     platform: time
-    hour: 20
-    minutes: 03
-    seconds: 00
+    at: '20:03:00'
   condition:
     condition: state
     entity_id: input_boolean.vacation_mode
@@ -19,9 +17,7 @@
 - alias: Vacation Mode for Lights OFF'
   trigger:
     platform: time
-    hour: 22
-    minutes: 23
-    seconds: 00
+    at: '22:23:00'
   condition:
     condition: state
     entity_id: input_boolean.vacation_mode
