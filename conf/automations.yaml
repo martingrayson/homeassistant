@@ -5,7 +5,7 @@
   trigger:
     platform: time
     # Matches every hour at 5 minutes past whole
-    minutes: 0
+    minutes: 31
     seconds: 00
   condition:
     condition: state
@@ -20,7 +20,7 @@
   trigger:
     platform: time
     # Matches every hour at 5 minutes past whole
-    minutes: 2
+    minutes: 32
     seconds: 00
   condition:
     condition: state
