@@ -1,5 +1,5 @@
 # Vacation Mode
   vacation_mode:
-    name: Enable or disable vacation mode
+    name: Vacation Mode
     initial: off
     icon: 'mdi:beach'
