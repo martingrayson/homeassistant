@@ -13,7 +13,6 @@
   action:
     service: light.turn_on
     entity_id: group.vacation_lights
-    brightness_pct: 100
 
 # Light off 1hr 30 mins after sunset
 - alias: Vacation Mode for Lights OFF'
