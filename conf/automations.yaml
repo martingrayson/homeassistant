@@ -4,8 +4,8 @@
 - alias: 'Vacation Mode for Lights ON'
   trigger:
     platform: time
-    # Matches every hour at 5 minutes past whole
-    minutes: 31
+    hour: 20
+    minutes: 03
     seconds: 00
   condition:
     condition: state
@@ -19,8 +19,8 @@
 - alias: Vacation Mode for Lights OFF'
   trigger:
     platform: time
-    # Matches every hour at 5 minutes past whole
-    minutes: 32
+    hour: 22
+    minutes: 23
     seconds: 00
   condition:
     condition: state
