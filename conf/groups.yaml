@@ -66,4 +66,9 @@ home_status:
     - sensor.hallway_nest_protect_battery_health
     - sensor.hallway_nest_protect_co_status
     - sensor.hallway_nest_protect_smoke_status
+    - group.vacation_mode
+
+vacation_mode:
+  name: Vacation vacation_mode
+  entities:
     - input_boolean.vacation_mode
