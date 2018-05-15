@@ -69,6 +69,6 @@ home_status:
     - group.vacation_mode
 
 vacation_mode:
-  name: Vacation vacation_mode
+  name: Vacation Mode
   entities:
     - input_boolean.vacation_mode
