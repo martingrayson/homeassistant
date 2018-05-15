@@ -65,6 +65,7 @@ tts:
 # Vacation Mode
 input_boolean:
   vacation_mode:
+    name: Enable or disable vacation mode
     initial: off
     icon: 'mdi:beach'
 

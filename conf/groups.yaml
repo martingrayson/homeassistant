@@ -13,7 +13,6 @@ default_view:
     - sun.sun
     - device_tracker.vik
     - device_tracker.martin
-    - input_boolean.vacation_mode
 
 lounge:
   name: Lounge
@@ -67,10 +66,4 @@ home_status:
     - sensor.hallway_nest_protect_battery_health
     - sensor.hallway_nest_protect_co_status
     - sensor.hallway_nest_protect_smoke_status
-    - group.vacation_mode
-    - input_boolean.vacation_mode
-
-vacation_mode:
-  name: Vacation Mode
-  entities:
     - input_boolean.vacation_mode
