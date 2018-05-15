@@ -82,7 +82,9 @@ homekit: !include homekit.yaml
 media_player: !include tv.yaml
 scene: !include scenes.yaml
 
-# Vcation Mode
+# Vacation Mode
 input_boolean:
   vacation_mode:
     initial: off
+    hidden: false
+    icon: 'mdi:beach'

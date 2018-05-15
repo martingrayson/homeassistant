@@ -66,3 +66,4 @@ home_status:
     - sensor.hallway_nest_protect_battery_health
     - sensor.hallway_nest_protect_co_status
     - sensor.hallway_nest_protect_smoke_status
+    - input_boolean.vacation_mode
